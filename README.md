@@ -73,3 +73,11 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
+components/       # Vue-Komponenten (z. B. Hero.vue, Footer.vue)
+layouts/          # Layouts (default.vue, ggf. Header/Footer)
+pages/            # Seiten (index.vue, kontakt.vue, etc.)
+assets/           # Bilder, CSS, etc. (assets/css/main.css ist schon da)
+stores/           # Pinia-Stores (siehe oben)
+public/           # Statische Dateien (favicon, robots.txt, etc.)
